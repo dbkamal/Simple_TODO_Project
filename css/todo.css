@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    border: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    background: #64B5F6;
+    color: #E3F2FD;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
+
+#container {
+    border: 1px solid grey;
+    max-width: 400px;
+    min-width: 100px;
+    margin: 10% auto;
+/*    -webkit-transition: height 4s ease-out;
+    -moz-transition:    height 4s ease-out;
+    -ms-transition:     height 4s ease-out;
+    -o-transition:      height 4s ease-out;*/
+}
+
+h3 {
+    background: #1565C0;
+    color: #E3F2FD;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    padding: 5px 15px 5px 30px;
+    /*padding: 5px 15px;*/
+    font-size: 0.8em;
+    overflow: hidden;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+li {
+    list-style-type: none;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 30px;
+    font-size: 0.8em;
+    color: #757575;
+}
+
+li:hover {
+    color: black;
+}
+
+li:nth-child(even) {
+    background: #E0E0E0;
+}
+
+li:nth-child(odd) {
+    background: white;
+}
+
+.del {
+    box-sizing: border-box;
+    padding: 10px 10px 14px 10px;
+    display: none;
+}
+
+/*Line Through when clicked*/
+.classStrikeThrough {
+    text-decoration: line-through;
+}
